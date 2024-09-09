@@ -1,0 +1,27 @@
+Étape 1 : Préparation des données
+
+Traitement des données (Importer, Nettoyer, Enrichissement) via Pandas, Pour assurer les entrées sont bien
+
+Étape 2 : Compréhension et Traitement du Langage Naturel
+
+GPT-3 pour la génération de texte, capable de comprendre et de générer des réponses en langage naturel basées sur les requêtes des utilisateurs.
+Utilisation de spaCy pour le parsing syntaxique, l'identification des entités nommées et l'extraction de relations, permettant de structurer la question de l'utilisateur et d'identifier les éléments clés comme les dates, les noms propres, ou les quantités.
+
+Étape 2 : Interaction avec les Bases de Données
+
+MongoDB pour les requêtes sur des bases de données non relationnelles, utiles lorsque les données sont moins structurées.
+
+Étape 3 : Analyse des Données
+
+Réseaux de neurones pour les classifications ou prédictions complexes, comme prévoir des tendances de vente basées sur les données historiques.
+Random Forest, SVM (Support Vector Machines), Decision Tree, AdaBoost, KNeighbors et Regression linéaire pour la classification et la régression dans des scénarios moins complexes.
+Réseaux de neurones convolutifs (CNN) pour l'analyse d'images, si les données incluent des éléments visuels.
+
+Étape 4 : Visualisation et Génération de Réponses
+
+Matplotlib et Plotly pour créer des visualisations graphiques, comme des graphiques à barres, des lignes temporelles ou des heatmaps.
+Grafana ou Power BI pour des dashboards interactifs, si l'interface utilisateur le permet.
+
+Étape 5 : Présentation des Résultats à l'Utilisateur
+
+Développement d'une interface en utilisant React ou Angular pour le front-end, permettant aux utilisateurs de poser des questions et de recevoir des réponses de manière interactive.
